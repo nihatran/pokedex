@@ -37,9 +37,14 @@ function App() {
   ));
 
   return (
-    <div className="wrapper">
-      <ul className="container">{pokemonCards}</ul>
-    </div>
+    <>
+      <header>
+        <h1>Pokédex</h1>
+      </header>
+      <div className="wrapper">
+        <ul className="container">{pokemonCards}</ul>
+      </div>
+    </>
   );
 }
 
