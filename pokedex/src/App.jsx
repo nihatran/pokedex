@@ -2,9 +2,6 @@ import { useState, useEffect } from "react";
 import { PokemonCard } from "./PokemonCard";
 import "./App.css";
 
-//get array of pokemon objects
-//transform array into a list of cards
-
 function App() {
   const [pokemonList, setPokemonList] = useState([]);
 

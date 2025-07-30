@@ -1,7 +1,7 @@
 
-
 .pkmnCard {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-width: 550px;
@@ -9,7 +9,23 @@
     background-color: lightblue;
 }
 
+img {
+    max-width: 250px;
+    width: 100%;
+}
+
 
 p {
+    font-size: 1.2em;
     margin: 0;
+}
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    .pkmnCard {
+        min-width: 300px;
+        min-height: 100px;
+    }
 }
