@@ -1,4 +1,36 @@
-body {
-    height: 100vh;
 
+.pkmnInfo {
+    height: calc(100vh - 120px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnContainer {
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+}
+
+button {
+    margin-left: auto;
+}
+
+.pkmnInfoCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+.pkmnTypes {
+    margin: 8px;
+}
+
+.pkmnDesc {
+    max-width: 500px;
 }

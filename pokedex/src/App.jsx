@@ -32,6 +32,7 @@ function App() {
           flavorText: speciesData.flavor_text_entries[8]["flavor_text"],
         });
       }
+
       setPokemonList(fetchedData);
     }
 
@@ -54,6 +55,7 @@ function App() {
           name: pokemon.name,
           id: pokemon.id,
           sprite: pokemon.sprite,
+          types: pokemon.types,
           desc: pokemon.flavorText,
         }}
         handleShowInfo={handleShowInfo}
